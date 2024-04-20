@@ -1,8 +1,8 @@
-# FTP Load Balancer - Group 13
-# Overview
+# FTP Load Balancer
+## Overview
 This project aims to provide a robust solution for load balancing FTP (File Transfer Protocol) server requests. The system utilizes a load balancer to evenly distribute incoming FTP requests among multiple FTP servers, ensuring optimal performance, scalability, and fault tolerance.
 
-# Design
+## Design
 Our design consists of three main components:
 1. **Load Balancer**: Acts as the entry point for incoming FTP requests. It intelligently distributes these requests across multiple FTP servers based on predefined criteria such as server load, availability, or round-robin.
 2. **FTP Servers**: Multiple instances of FTP servers are deployed to handle file transfer requests. These servers are identical in configuration and serve the same purpose, allowing for horizontal scaling as traffic increases.
@@ -25,7 +25,7 @@ Our design consists of three main components:
 
 
 
-# Members 
+## Members 
 | Student name | ID |
 | -- | -- |
 | Nguyễn Lê Minh Đức | BI12-092 |
